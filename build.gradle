@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id 'io.qameta.allure' version '2.11.2'
     id "io.freefair.lombok" version "8.2.2"
 }
 
@@ -11,12 +10,7 @@ sourceCompatibility = 11
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
-allure {
-    version = '2.20.1'
-    useJUnit5 {
-        version = '2.20.1'
-    }
-}
+
 
 repositories {
     mavenCentral()
